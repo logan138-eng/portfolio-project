@@ -209,7 +209,7 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: MechanicalSystem
+- Component Design #1: MechanicalSystem(Have implemented this)
   - **Description**:
     - MechanicalSystem models a simplified mechanical system by maintaining physical state variables such as position, velocity, mass, and applied forces, and provides behavior that updates or queries the system based on classical mechanics relationships.
   - **Kernel Methods**:
