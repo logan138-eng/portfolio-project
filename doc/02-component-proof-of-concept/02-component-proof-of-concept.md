@@ -1,8 +1,8 @@
 # Portfolio Part 2: Component Proof-of-Concept
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Yuchen Wang<!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
+- **Dot Number**: wang.18748<!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
+- **Due Date**: 2/20/2026<!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
 
 ## Assignment Overview
 
@@ -116,6 +116,9 @@ Below is further rationale/explanation for the rubric items above:
 
 <!-- TODO: briefly argue your choice of design or design something
 new; then delete this comment -->
+I choose the mechanicalSystem because I think someone would use it in the future.
+It is easy to use it.
+And I hope I could design a more complicated one that could be used in the industry.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
