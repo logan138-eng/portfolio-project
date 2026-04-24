@@ -1,8 +1,8 @@
 # Portfolio Part 5: Kernel Implementation
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Yuchen Wang<!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
+- **Dot Number**: wang.18748<!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
+- **Due Date**: 4/14/2026<!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
 
 ## Assignment Overview
 
@@ -120,7 +120,11 @@ Below is further rationale/explanation for the rubric items above:
 > discuss how that representation will be restricted (i.e., by convention)
 > and interpreted (i.e., by correspondence).
 
-<!-- TODO: select a representation and explain why -->
+- I plan to represent the system using four private fields: mass, position, velocity, and netForce. The mass is stored as a double, while position, velocity, and net force are stored as Vector objects. This representation directly matches the main physical properties needed to describe a mechanical system.
+
+- The representation is restricted by the convention that mass > 0, and position, velocity, and netForce must never be null.
+
+- The correspondence is that the abstract mechanical system is modeled as a physical object with a mass, position vector, velocity vector, and the total force currently acting on it. The field netForce represents the sum of all forces applied to the system.
 
 > To start making your kernel implementation, make a branch off of main in your
 > new repo called something like `kernel-implementation`. There are many ways to
