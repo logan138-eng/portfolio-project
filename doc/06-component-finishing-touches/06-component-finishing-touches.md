@@ -103,15 +103,20 @@ Below is further rationale/explanation for the rubric items above:
    kernel, and secondary methods. The format of testing will be different from
    the style used in the course because it is unlikely that you will have an
    existing component to test against (more on this below).
+
 2. There must be at least two different sample codes provided that
    show how the component might be used. For example, consider how `XMLTree`
    was used to create the `RSSReader` and the `RSSAggregator`. There is no
    expectation that you provide samples to this much depth, but two files
    with at least a main method would be excellent.
+
+
 3. As you work through these finishing touches, take a moment to
    reflect on the software development process. There are reflection prompts
    below. You should also reflect on your growth as a developer and share
    details about what you've learned.
+
+
 4. The overall component must exhibit a high level of polish.
    Because all previous parts of this assignment are meant to be formative,
    assessments were generally charitable. In this phase, you should submit
@@ -307,18 +312,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I now have a much better understanding of software development. Before this project, I mainly focused on writing code that works. After completing the portfolio project, I realized that good software also requires clear design, abstraction, and organization. The process of building a component from scratch helped me understand how real-world software is structured.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+Yes, this project exposed some gaps in my understanding, especially in designing abstraction functions and representation invariants. At first, I struggled to clearly define how my data representation mapped to the abstract model. I addressed this by reviewing course materials and revising my design multiple times until it became consistent and clear.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+My perspective has become more realistic. Software development is more complex than I initially thought, but I still enjoy it. I especially like the process of turning ideas into structured systems. Although it can be challenging, I find it rewarding when everything works together correctly.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +331,33 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+Through this project, I developed both technical and non-technical skills, including:
+- Designing software components using abstraction
+- Writing clean and modular code
+- Testing code using JUnit
+- Debugging and improving program correctness
+- Managing code with version control (GitHub)
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+Designed and implemented a modular software component using abstraction and design-by-contract principles
+Developed comprehensive JUnit test cases to verify correctness and state preservation
+Built multiple use cases demonstrating practical applications of the component
+Utilized GitHub for version control and project organization
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+This project made me more interested in software development. It helped me realize that I enjoy building systems and solving problems through code. It also showed me the importance of writing maintainable and well-structured programs, which is important for my future career.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+To continue on my career path, I plan to work on more projects and improve my coding and system design skills. I also want to explore areas like AI and software engineering in more depth. Potential mentors could include my professors, teaching assistants, or experienced developers I connect with through internships or online communities.
 
 ### Changelog
 

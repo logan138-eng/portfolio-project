@@ -1,10 +1,31 @@
-# Test Folder
+# Testing
 
-This README exists, so the folder shows up in source control like git. This
-file is not needed and can be safely deleted. 
+This project includes JUnit test suites for the `MechanicalSystem` component, covering both kernel and secondary methods.
 
-However, for completeness, this folder exists for storing JUnit test files.
-Test folders can be much less structured than source folders, but I would
-generally recommend following the same directory structure as the source folder.
-In other words, include the package paths, such as 
-`components/naturalnumber/...`.
+## Test Structure
+
+* `MechanicalSystem1Test`
+  Tests all kernel methods such as setters, getters, force application, reset, clear, `newInstance`, and `transferFrom`.
+
+* `MechanicalSystemSecondaryTest`
+  Tests higher-level behaviors including acceleration, motion stepping, kinetic energy, rest detection, and object equality.
+
+## Testing Approach
+
+The tests are designed to verify:
+
+* Correct return values for all operations
+* Proper updates to the system state
+* Preservation of unaffected fields after each method call
+
+Since no reference implementation is used, correctness is validated by directly inspecting the state of the object after each operation.
+
+## Coverage
+
+The test suite covers:
+
+* All kernel methods
+* All secondary methods
+* Object behavior (`equals`, `hashCode`, `toString`)
+
+Overall, the tests ensure that the component behaves consistently with its design-by-contract specifications.

@@ -10,7 +10,7 @@ the following form: YYYY.0M.0D.
 
 ### Added
 
-- Designed kernel and enhanced interfaces for MechanicalSystem component
+- Write UseCase1 and Moving object and two test cases
 
 ### Updated
 
